@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Produtos e Serviços</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        header nav ul li {
+            margin-right: 20px;
+        }
+        
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        
+        header nav a:hover {
+            color: #ccc;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        section h1 {
+            margin-top: 0;
+        }
+        
+        .produtos-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .produto {
+            margin: 20px;
+            width: calc(33.33% - 20px);
+            background-color: #f7f7f7;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .produto img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        
+        .servicos-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .servico {
+            margin: 20px;
+            width: calc(33.33% - 20px);
+            background-color: #f7f7f7;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="produtos">
+            <h1>Produtos</h1>
+            <div class="produtos-container">
+                <div class="produto">
+                    <h2>Produto 1</h2>
+                    <p>Descrição do produto 1</p>
+                    <img src="imagem1.jpg" alt="Imagem do produto 1">
+                </div>
+                <div class="produto">
+                    <h2>Produto 2</h2>
+                    <p>Descrição do produto 2</p>
+                    <img src="imagem2.jpg" alt="Imagem do produto 2">
+                </div>
+                <!-- Adicione mais produtos aqui -->
+            </div>
+        </section>
+        <section id="servicos">
+            <h1>Serviços</h1>
+            <div class="servicos-container">
+                <div class="servico">
+                    <h2>Serviço 1</h2>
+                    <p>Descrição do serviço 1</p>
+                </div>
+                <div class="servico">
+                    <h2>Serviço 2</h2>
+                    <p>Descrição do serviço 2</p>
+                </div>
+                <!-- Adicione mais serviços
