@@ -1,0 +1,25 @@
+#display {
+
+    border: 3px solid black;
+    color: beige;
+
+}
+ .container {
+      border: 5px solid black; 
+      margin: 20px;             
+      padding: 20px;           
+    }
+
+
+body {
+    margin: 0px;
+
+}
+
+.numeros{
+
+   
+    display: inline-block;
+}
+
+ 
