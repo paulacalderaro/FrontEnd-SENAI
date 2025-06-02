@@ -1,0 +1,84 @@
+.praia{
+
+    width: 300px;
+height: 0px ;
+margin: 0;
+padding-left: 50%;
+display: inline-flex;
+      align-items:center;
+      gap: 200px
+
+
+}
+
+header{
+text-align:center;
+    background-color: rgb(4, 4, 4);
+    width:100%;
+    height: 200%;
+    display: flex;
+    gap: 25%;
+
+}
+
+#noticias{
+margin: 0%;
+    text-align: center;
+    background-color: cornflowerblue;
+    width:100%;
+    height: 800%;
+   
+}
+
+
+html{
+
+    background-color: bisque;
+}
+
+.inicio{
+
+font-size: 22px;
+
+color: beige;
+}
+
+
+.cultura{
+
+font-size: 22px;
+color: beige;
+}
+
+.esportes{
+
+font-size: 22px;
+color: beige;
+}
+
+.politica{
+font-size: 22px;
+color: beige;
+
+
+}
+
+p{
+font-size: 20px;
+display:inline-flex;
+padding-right: 100%;
+    margin: 0%;
+   text-align: justify;
+justify-content:center;
+width: 30%;
+
+
+
+}
+
+.titulo{
+
+    text-align: center;
+    font-size: 30px;
+    border: 2px;
+}
