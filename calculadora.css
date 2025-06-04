@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #display {
 
     border: 3px solid black;
@@ -28,4 +29,30 @@ header{
     font-size: 30px;
 }
 
+=======
+#display {
+
+    border: 3px solid black;
+    color: beige;
+
+}
+ .container {
+      border: 5px solid black; 
+      margin: 20px;             
+      padding: 20px;           
+    }
+
+
+body {
+    margin: 0px;
+
+}
+
+.numeros{
+
+   
+    display: inline-block;
+}
+
+>>>>>>> a36c35b462b4cb7d9ece5962d0cc9988ad982a4a
  
