@@ -1,9 +1,0 @@
-Código para cada letra da frase ser maiúscula
-
-function modificarFrase (frase){
-return frase
-.split(' ')
-.map (palavra => palavra.charAt(0).toUpperCase() + palavra.slice(1))
-.join(' ');
-
-}
